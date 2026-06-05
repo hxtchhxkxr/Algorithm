@@ -8,4 +8,4 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 <br>
 ![Java](https://img.shields.io/badge/Programmers-Java-007396?style=flat-square)
 <br>
-![Oracle](https://img.shields.io/badge/Programmers-Oracle-F80000?style=flat-square)
+![SQL](https://img.shields.io/badge/Programmers-SQL-336791?style=flat-square)
