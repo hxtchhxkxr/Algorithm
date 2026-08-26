@@ -8,4 +8,4 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |----------|----------|
 | BOJ | C++ |
 | Programmers | Java |
-| Programmers | SQL |
+| Programmers | SQL(MySQL, Oracle) |
