@@ -9,23 +9,18 @@ class Solution {
         return max;
     }
     
-    // 현재 피로도, 탐험한 던전 수, visited, dungeons
-    void dfs(int current, int cnt, boolean[] visited, int[][] dungeons){
+    void dfs(int k, int cnt, boolean[] visited, int[][] dungeons){
         max = Math.max(max, cnt);
         
         for(int i=0; i<dungeons.length; i++){
-            if (visited[i] == true){
-                continue;
-            }
+            if(visited[i]) continue;
             
-            if(current < dungeons[i][1]){
-                continue;
-            }
+            if(k<dungeons[i][0]) continue;
             
             visited[i] = true;
             
             dfs(
-                current - dungeons[i][0],
+                k-dungeons[i][1],
                 cnt+1,
                 visited,
                 dungeons
