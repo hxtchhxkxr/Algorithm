@@ -2,7 +2,7 @@ import java.util.*;
 
 class Solution {
     public int[] solution(String s) {
-        ArrayList<ArrayList<Integer>> list = stringToStackList(s);
+        ArrayList<ArrayList<Integer>> list = stringToList(s);
         
         list.sort((s1, s2) -> s1.size() - s2.size());
         
@@ -21,7 +21,7 @@ class Solution {
         return result;
     }
     
-    private ArrayList<ArrayList<Integer>> stringToStackList(String s){
+    private ArrayList<ArrayList<Integer>> stringToList(String s){
         s = s.substring(2, s.length() - 2);
         char[] arr = s.toCharArray();
         
