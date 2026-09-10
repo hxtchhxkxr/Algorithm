@@ -6,6 +6,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 
 | Platform | Language |
 |----------|----------|
+| Codetree | Java |
 | BOJ | C++ |
 | Programmers | Java |
 | Programmers | SQL(MySQL, Oracle) |
